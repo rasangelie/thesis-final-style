@@ -1,0 +1,23 @@
+@use '../util' as u;
+
+.container {
+    
+    &__first {
+        // background-color: pink;
+        margin-bottom: 30px;
+        
+     }
+
+    &__right {
+
+         
+        .right-intro {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 12px;
+            text-align: justify;
+        }
+    }
+}
