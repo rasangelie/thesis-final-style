@@ -2,12 +2,13 @@
 
 .container {
     h2 {
-        font-size: 25px;
+        font-size: u.$standard-h2;
         font-weight: 700;
     }
     
     h6 {
         font-weight: 400;
+        font-size: u.$standard-small;
 
     }
 
@@ -17,7 +18,7 @@
         background: u.$button-gradient;
         color: white;
         cursor: pointer;
-        font-size: 14px;
+        font-size: u.$standard-medium;
         display: flex;
         align-items: center;
         justify-content: center;

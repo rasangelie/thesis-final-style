@@ -1,0 +1,15 @@
+@use '../util' as u;
+
+.container {
+    &__webcam {
+        background-color: palegreen;
+        margin-top: 12px;
+        border-radius: 10px;
+
+        .img-size {
+            width: 100%;
+            
+        }
+    }
+    
+}

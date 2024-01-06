@@ -9,12 +9,16 @@
         }
          
         .right-intro {
-            font-size: 18px;
+            font-size: u.$standard-xlarge;
             margin-bottom: 5px;
         }
 
+
+        p, .list-style {
+            font-size: u.$standard-small;
+        }
+        
         p {
-            font-size: 12px;
             text-align: justify;
             font-family: u.$font-inter;
         }
@@ -22,7 +26,6 @@
 
 
         .list-style {
-            font-size: 12px;
             display: flex;
             column-gap: 80px;
             margin-left: 20px;
