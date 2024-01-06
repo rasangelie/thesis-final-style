@@ -42,10 +42,6 @@ nav {
   text-decoration: none;
 }
 
-li {
-  list-style: none;
-}
-
 ul {
   padding: 0;
   margin: 0;
@@ -90,13 +86,27 @@ ul {
   margin-top: 1em;
 }
 
-.container__first {
-  margin-bottom: 30px;
+.container__right hr {
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 .container__right .right-intro {
   font-size: 18px;
+  margin-bottom: 5px;
 }
 .container__right p {
   font-size: 12px;
   text-align: justify;
+  font-family: "Inter", sans-serif;
+}
+.container__right .list-style {
+  font-size: 12px;
+  display: flex;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.container__right li {
+  margin-bottom: 8px;
 }/*# sourceMappingURL=style.css.map */
