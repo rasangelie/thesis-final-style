@@ -1,0 +1,22 @@
+@use '../util' as u;
+
+.container {
+
+    &__third {
+        .table-container {
+            border-radius: 10px;
+            border: 1px solid #cdcdcd;
+            max-height: 200px;
+            overflow-y: auto; /* Enable vertical scrolling */
+            margin-top: 12px;
+        }
+
+        table {
+            font-size: 12px;
+            font-family: u.$font-inter;
+            border-spacing: 20px;
+            padding: 0 10px;
+           
+        }
+    }
+}
