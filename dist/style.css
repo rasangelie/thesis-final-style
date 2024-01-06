@@ -54,20 +54,21 @@ ul {
 .container h6 {
   font-weight: 400;
 }
-.container .upload-video {
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  -moz-column-gap: 5px;
-       column-gap: 5px;
-  padding: 12px 30px;
+.container button {
   border: none;
   border-radius: 10px;
   background: linear-gradient(45deg, rgb(4, 220, 91) 0%, rgb(6, 221, 169) 100%);
   color: white;
   cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  padding: 12px 30px;
+  font-family: "Poppins", sans-serif;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
 }
 .container__flex-intro {
   display: flex;
@@ -126,16 +127,5 @@ ul {
   padding: 0 10px;
 }
 .container__third .download-copy {
-  background: linear-gradient(45deg, rgb(4, 220, 91) 0%, rgb(6, 221, 169) 100%);
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
-  padding: 12px 30px;
   width: 100%;
-  border-radius: 10px;
-  color: #FFFFFF;
-  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
