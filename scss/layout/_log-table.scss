@@ -6,9 +6,10 @@
         .table-container {
             border-radius: 10px;
             border: 1px solid #cdcdcd;
-            max-height: 200px;
+            max-height: 250px;
             overflow-y: auto; /* Enable vertical scrolling */
             margin-top: 12px;
+            margin-bottom: 12px;
         }
 
         table {
@@ -16,7 +17,21 @@
             font-family: u.$font-inter;
             border-spacing: 20px;
             padding: 0 10px;
-           
         }
+
+        .download-copy {
+            background: u.$button-gradient;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 10px;
+            padding: 12px 30px;
+            width: 100%;
+            border-radius: 10px;
+            color: u.$first-bg;
+            cursor: pointer;
+        }
+        
     }
 }

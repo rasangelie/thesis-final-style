@@ -114,13 +114,28 @@ ul {
 .container__third .table-container {
   border-radius: 10px;
   border: 1px solid #cdcdcd;
-  max-height: 200px;
+  max-height: 250px;
   overflow-y: auto; /* Enable vertical scrolling */
   margin-top: 12px;
+  margin-bottom: 12px;
 }
 .container__third table {
   font-size: 12px;
   font-family: "Inter", sans-serif;
   border-spacing: 20px;
   padding: 0 10px;
+}
+.container__third .download-copy {
+  background: linear-gradient(45deg, rgb(4, 220, 91) 0%, rgb(6, 221, 169) 100%);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  padding: 12px 30px;
+  width: 100%;
+  border-radius: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
